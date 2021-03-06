@@ -1,0 +1,185 @@
+/*TIPOGRAFIA*/
+/*FIN TIPOGRAFIA*/
+/*RESETEO DE ESTILOS*/
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+input {
+  color: unset;
+  background-color: transparent;
+  cursor: text;
+  font: unset;
+  padding: 0px;
+  border: none;
+  -o-border-image: none;
+     border-image: none;
+}
+
+textarea {
+  color: unset;
+  border: none;
+  -o-border-image: none;
+     border-image: none;
+  background-color: transparent;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  -webkit-column-count: initial !important;
+          column-count: initial !important;
+  font: unset;
+}
+
+select {
+  color: unset;
+  background-color: transparent;
+  cursor: default;
+  border: none;
+}
+
+/*FIN DEL RESETEO DE ESTILOS*/
+/*ESTILOS GENERALES*/
+.no-gutters {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+hr {
+  border-top: 1.5px solid #282727;
+}
+
+/*FIN DE ESTILOS GENERALES*/
+/*TIPOGRAFIA*/
+P, input, textarea, select, label, ::-webkit-input-placeholder {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+P, input, textarea, select, label, :-ms-input-placeholder {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+P, input, textarea, select, label, ::-ms-input-placeholder {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+P, input, textarea, select, label, ::placeholder {
+  color: black;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+footer p {
+  color: #e0dfdf;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.boton {
+  color: black;
+  font-family: "georgia", "palatino", "book antiqua", "palatino linotype", serif;
+  font-weight: 600;
+  letter-spacing: normal;
+  font-style: italic;
+}
+
+li {
+  color: #e0dfdf;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.nombreEscuela {
+  color: rgba(243, 213, 145, 0.9) !important;
+  font-family: "georgia", "palatino", "book antiqua", "palatino linotype", serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+nav .nombreEscuela {
+  letter-spacing: 2px;
+}
+
+.bajadaNombreEscuela {
+  color: rgba(243, 213, 145, 0.9);
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tituloPagina {
+  color: rgba(243, 213, 145, 0.9);
+  font-family: "georgia", "palatino", "book antiqua", "palatino linotype", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.bajadaTituloPagina {
+  color: #e0dfdf;
+  font-family: "helvetica", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.tituloSeccion {
+  color: black;
+  font-family: "georgia", "palatino", "book antiqua", "palatino linotype", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.36em;
+}
+
+.tituloFooter {
+  color: rgba(243, 213, 145, 0.9);
+  font-family: "georgia", "palatino", "book antiqua", "palatino linotype", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.36em;
+}
+/*# sourceMappingURL=estilos.css.map */

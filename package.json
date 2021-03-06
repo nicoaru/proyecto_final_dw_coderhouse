@@ -1,0 +1,17 @@
+{
+  "name": "4ta_entrega_proyecto_final",
+  "version": "1.0.0",
+  "description": "Este archivo corresponde a la 4ta entrega del proyecto final del curso de Desarrollo Web de Coder House.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",  
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Nicolas Aruguete - Camada 13340",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

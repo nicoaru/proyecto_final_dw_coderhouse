@@ -1,0 +1,17 @@
+/*FOOTERS*/
+
+footer {
+    background-color: $color-oscuro;    
+    margin: 0px -15px 0px -15px;
+    padding: 0px 35px 0px 35px;
+    img {
+        width: 20px;
+        height: 20px;
+        @media (min-width: $md) {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+/*FIN DE FOOTERS*/

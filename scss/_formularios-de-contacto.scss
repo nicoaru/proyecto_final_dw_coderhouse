@@ -1,0 +1,48 @@
+/*PAGINA "CONTACTO"*/
+
+/*FORMULARIOS DE CONTACTO*/
+
+main {
+    .contactoSeccion {
+        @media (min-width: $md) {
+            border-radius: 5px;    
+        }
+    }
+    .principalContacto {
+        .tituloSeccion {
+            text-align: center;
+        }   
+        .datosContacto {
+            p {
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .contactoSeccion, .principalContacto {
+        background-color: $color-primario;
+        input {
+            border-bottom: solid 1px $color-oscuro
+        }
+        input.boton {
+            border: none;
+        }
+        textarea {
+            border-bottom: solid 1px $color-oscuro;
+            padding: 0px;
+        }
+        select {
+            border: solid 1px $color-oscuro;
+            border-radius: 4px;
+        }
+    }    
+}
+
+
+
+/*FIN FORMULARIOS DE CONTACTO*/
+
+
+
+

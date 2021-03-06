@@ -1,0 +1,30 @@
+//MEDIA QUERYS
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px; 
+
+
+
+//TIPOGRAFIA
+$color-primario: rgba(243, 213, 145, .9);
+$color-oscuro: rgb(40, 39, 39);
+$color-claro: rgb(224, 223, 223);
+$color-texto: black;
+
+
+$fontFamily-menu: 'Oswald', sans-serif;
+$fontFamily-titulos: 'georgia', 'palatino','book antiqua','palatino linotype',serif;
+$fontFamily-parrafos: "helvetica", sans-serif;
+
+
+@mixin tipografia($color, $fuente, $weight, $letter-spacing) {
+    color: $color;
+    font-family: $fuente;
+    font-weight: $weight;
+    letter-spacing: $letter-spacing;
+}
+
+
+
+//FIN TIPOGRAFIA

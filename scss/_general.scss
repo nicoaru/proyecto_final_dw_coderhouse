@@ -1,0 +1,39 @@
+/*ESTILOS GENERALES*/
+.no-gutters {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+hr {
+
+    border-top: 1.5px solid rgb(40, 39, 39);
+}
+html {
+    font-size: 10px;
+}
+@media (min-width: $md) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: $xl) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/*CONTENEDOR TITULO DE PAGINA*/
+.divTituloPagina {
+    background-color: rgb(40, 39, 39);
+    margin-left: -15px;
+    margin-right: -15px;
+    @media (min-width: $lg) {
+    height: 110px;
+    }
+}
+
+
+/*FIN DE ESTILOS GENERALES*/
+
+
+

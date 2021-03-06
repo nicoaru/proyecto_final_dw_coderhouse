@@ -1,0 +1,26 @@
+/*INDEX*/
+
+main {
+    .divFondoEstrellas {
+        background-image: url(../recursos/imagen_fondo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 565px;
+        padding-top: 100px;
+        .nombreEscuela {
+            animation-name: animacionNombreEscuela;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 2.5s;
+            animation-delay: 0s;
+        }
+        @keyframes animacionNombreEscuela {
+            0% {text-shadow: 3px 3px 5px  violet;}
+            50% {text-shadow: 3px 3px 5px rgba(238, 130, 238, .03);}
+            100% {text-shadow: 3px 3px 5px  violet;}
+        }
+    }
+}
+
+
+/*FIN INDEX*/

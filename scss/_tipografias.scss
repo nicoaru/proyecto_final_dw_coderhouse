@@ -1,0 +1,106 @@
+
+/*TIPOGRAFIA*/
+
+P, input, textarea, select, label, ::placeholder {
+    @include tipografia($color-texto, $fontFamily-parrafos, normal, 2px);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+footer p {
+    @include tipografia($color-claro, $fontFamily-parrafos, normal, 1px)
+    margin: 0px;
+}
+.boton {
+    @include tipografia($color-texto, $fontFamily-titulos, 600, normal)
+    font-style: italic;
+}
+li {
+    @include tipografia($color-claro, $fontFamily-menu, normal, normal);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;   
+}
+.nombreEscuela {
+    @include tipografia($color-primario !important, $fontFamily-titulos, 800, 1px);
+    text-align: center;
+}
+nav {
+    .nombreEscuela {
+        letter-spacing: 2px;       
+    }
+}
+.bajadaNombreEscuela {
+    @include tipografia($color-primario, $fontFamily-parrafos, normal, 3px);
+    margin-top: 10px;
+    text-align: center;
+}
+.tituloPagina {
+    @include tipografia($color-primario, $fontFamily-titulos, 600, 2px);
+    text-align: center;
+}
+.bajadaTituloPagina {
+    @include tipografia($color-claro, $fontFamily-parrafos, normal, 1px);
+    text-align: center;
+}
+.tituloSeccion, .subtituloSeccion {
+    @include tipografia($color-texto, $fontFamily-titulos, 600, 2px);
+    margin-bottom: 0.36em;
+}
+.tituloFooter {
+    @include tipografia($color-primario, $fontFamily-titulos, 600, 2px);
+    margin-bottom: 0.36em;   
+}
+
+/*TAMAÑO FUENTE*/
+
+P, input, textarea, select, label, ::placeholder, .bajadaNombreEscuela {
+    font-size: 1rem;
+}
+li {
+    font-size: 1rem;
+}
+.tituloPagina {
+    font-size: 2rem;
+}
+.bajadaTituloPagina {
+    font-size: 0.87rem;
+}
+.tituloSeccion {
+    font-size: 1.4rem;
+}
+.subtituloSeccion {
+    font-size: 1.2rem;
+}
+nav {
+    .nombreEscuela {
+        font-size: 1.25rem;       
+    }
+}
+.boton {
+    font-size: 1.25rem;
+}
+.tituloFooter {
+    font-size: 1.1rem;
+}
+footer {
+    p {
+        font-size: 0.75rem;
+    }
+}
+.nombreEscuela {
+    font-size: 24px;
+}
+@media (min-width: $sm) {
+    .nombreEscuela {
+        font-size: 45px;
+    }
+}
+@media (min-width: $lg) {
+    .nombreEscuela {
+        font-size: 60px;
+    }
+}

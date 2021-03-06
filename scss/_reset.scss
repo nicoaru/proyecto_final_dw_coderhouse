@@ -1,0 +1,41 @@
+/*RESETEO DE ESTILOS*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+input {
+    color: unset;
+    background-color: transparent;
+    cursor: text;
+    font: unset;
+    padding: 0px;
+    border: none;
+    border-image: none;
+}
+textarea {
+    color: unset;
+    border: none;
+    border-image: none;
+    background-color: transparent;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    font: unset;
+}
+select {
+    color: unset;
+
+    background-color: transparent;
+    cursor: default;
+    border: none;
+}
+/*FIN DEL RESETEO DE ESTILOS*/
+

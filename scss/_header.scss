@@ -1,0 +1,68 @@
+
+/*FORMATO MENU*/
+
+header {
+    .navbar {
+        background-color: rgb(40, 39, 39);
+        padding: 0px 20px 0px 20px;
+        @media (min-width: $lg) {
+            height: 110px;
+            padding: 0px 35px 0px 35px;
+        }
+
+        .nombreEscuela.navbar-brand:hover{
+            text-shadow: 1px 1px 10px rgba(243, 213, 145, .9);
+        }
+        button {            
+            width: 20px;
+            height: 20px;
+            border: none !important;
+        }
+        button span {
+            width: 20px !important;
+            height: 20px !important;
+        }
+    }
+    .navbar li {
+            position: relative;
+    }
+    ul li:hover {
+        text-shadow: 1px 1px 5px white;
+    }
+}
+
+/*SUB-MENU*/
+
+header {
+    .navbar .sub-menu {
+        display: none;
+        text-shadow: none;
+        @media (min-width: $lg) {
+            display: none;
+            position: absolute; 
+            top: 100%;
+            left: 0%;
+            z-index: 100;
+            background-color: rgba(77,57,97,0.6);
+            border-radius: 5px;
+            text-shadow: none;
+            min-width: 100%;
+            white-space: nowrap;
+        }
+
+        li {
+            display: block;
+            text-indent: 2em;
+            line-height: 2em;
+            @media (min-width: $lg) {
+                display: block;
+                text-indent: unset;
+                line-height: 2em;
+            }
+        }                    
+    }
+    .navbar li:hover .sub-menu {
+        display: block;
+    }
+}
+/*FIN FORMATO MENU*/
