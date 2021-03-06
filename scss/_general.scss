@@ -29,6 +29,10 @@ html {
     margin-right: -15px;
     @media (min-width: $lg) {
     height: 110px;
+        .tituloPagina {
+            position: relative;
+            top: -17.5px;
+        }
     }
 }
 

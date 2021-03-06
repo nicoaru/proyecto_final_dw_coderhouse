@@ -17,17 +17,39 @@
     height: 100%;
     border-radius: 50%;
     @media (max-width: $sm) {
-        .imagenRedonda {
-            max-width: 300px;
-        }
+//        .imagenRedonda {
+        max-width: 300px;
+//        }
     }
-    @media (min-width: $xl) {
-        .imagenRedonda {
+    @media (min-width: $lg) {
+//        .imagenRedonda {
             max-width: 350px;
-        }
+//        }
     }
 }    
 
+#consultoriaMain {
+    section {
+        div {
+            position: relative;
+        }
+    }
+    a:hover {
+        text-shadow: 1px 1px 10px white;
+    }
+}
+
+#natal, #solar, #compuesta, #constelaciones {
+    position: absolute;
+    top: -34.25px;
+    @media (min-width: $md) {
+        top: -48.75px;
+    }
+    @media (min-width: $lg) {
+        top: -220px;
+    }      
+
+}
 
 
 
