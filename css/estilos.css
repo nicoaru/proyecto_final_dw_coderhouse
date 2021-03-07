@@ -192,10 +192,10 @@ main .divFondoEstrellas {
 
 #natal, #solar, #compuesta, #constelaciones {
   position: absolute;
-  top: -34.25px; }
+  top: -104.25px; }
   @media (min-width: 768px) {
     #natal, #solar, #compuesta, #constelaciones {
-      top: -48.75px; } }
+      top: -145.75px; } }
   @media (min-width: 992px) {
     #natal, #solar, #compuesta, #constelaciones {
       top: -220px; } }
